@@ -1,7 +1,7 @@
 /***************************************************
-* Title : Two Sum Example 
-* Author: Dipankar Dutta
-****************************************************/
+ * Title : Two Sum Example
+ * Author: Dipankar Dutta
+ ****************************************************/
 #include <iostream>
 #include <string>
 #include <vector>
