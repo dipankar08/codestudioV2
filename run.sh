@@ -1,1 +1,1 @@
-g++ -std=c++11 $1 -o ./a.out && ./a.out
+g++ -g -std=c++11 $1 -o ./a.out && ./a.out
