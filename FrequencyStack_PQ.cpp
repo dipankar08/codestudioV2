@@ -37,7 +37,7 @@ public:
     }
     // push the touple in PQ.
     pq.push(vector<int>({x, map[x], index++}));
-    cout<<"Push "<< x<<" State:";
+    cout << "Push " << x << " State:";
     printState();
   }
 
@@ -53,9 +53,7 @@ public:
     }
     return temp;
   }
-  void printState(){
-    cout<<"Top Now:"<<pq.top()[0]<<endl;
-  }
+  void printState() { cout << "Top Now:" << pq.top()[0] << endl; }
 };
 int main() {
   FreqStack mFreqStack;

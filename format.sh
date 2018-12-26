@@ -1,1 +1,1 @@
-clang-format -i -style=llvm *.cpp
+clang-format -i -style=llvm $1
