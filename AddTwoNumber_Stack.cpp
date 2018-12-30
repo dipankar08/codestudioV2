@@ -20,7 +20,7 @@ ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
   }
 
   int sum = 0;
-  // create dummay nodes. 
+  // create dummay nodes.
   ListNode *list = new ListNode(0);
   while (!s1.empty() || !s2.empty()) {
     if (!s1.empty()) {

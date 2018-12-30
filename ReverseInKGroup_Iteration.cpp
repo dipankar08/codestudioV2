@@ -17,7 +17,7 @@ bool hasKNodes(ListNode *node, int k) {
   return false;
 }
 ListNode *reverseKGroup(ListNode *head, int k) {
-  if (!hasKNodes(head, k)){
+  if (!hasKNodes(head, k)) {
     return head;
   }
   ListNode *new_head = new ListNode(0);

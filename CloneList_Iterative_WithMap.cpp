@@ -1,5 +1,5 @@
 /***************************************************
- * Title : Iterative Solution 
+ * Title : Iterative Solution
  * Author: Dipankar Dutta
  ****************************************************/
 #include "mylist.h"

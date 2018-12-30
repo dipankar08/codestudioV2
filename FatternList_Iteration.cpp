@@ -20,12 +20,12 @@ DoubleListNode *flatten(DoubleListNode *head) {
     /* CASE 2: got child, find the tail of the child and link it to p->next */
     DoubleListNode *temp = p->child;
     // Find the tail of the child
-    while (temp->next != nullptr){
+    while (temp->next != nullptr) {
       temp = temp->next;
     }
     // Connect tail with p->next, if it is not nullptr
     temp->next = p->next;
-    if (p->next != nullptr){
+    if (p->next != nullptr) {
       p->next->prev = temp;
     }
     // Connect p with p->child, and remove p->child
