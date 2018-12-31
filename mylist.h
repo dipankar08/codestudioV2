@@ -32,9 +32,8 @@ void printList(ListNode *head) {
   }
   cout << endl;
 }
-template <class T>
-T *reverse(T *head) {
-  T* nhead = NULL;
+template <class T> T *reverse(T *head) {
+  T *nhead = NULL;
   while (head) {
     T *next = head->next;
     head->next = nhead;
