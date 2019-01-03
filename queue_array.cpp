@@ -1,5 +1,5 @@
 /***************************************************
- * Title : Queue implementation. 
+ * Title : Queue implementation.
  * Author: Dipankar Dutta
  ****************************************************/
 
@@ -52,7 +52,7 @@ int main() {
     cout << qu.dequeue() << endl;
   }
   cout << qu.dequeue() << endl; // Queue is empty
-  qu.enqueue(1); // Queue is full
+  qu.enqueue(1);                // Queue is full
 
   return 0;
 }
