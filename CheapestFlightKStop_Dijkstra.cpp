@@ -26,7 +26,7 @@ int findCheapestPrice(int n, vector<vector<int>> flights, int src, int dst,
     minheap.pop();
     int price = top[0];
     int city = top[1];
-    int stops = top[2]; // remaning stop
+    int stops = top[2]; // remaning stop 
     if (city == dst) {
       return price;
     }
