@@ -56,7 +56,7 @@ TreeNode *createTree(vector<int> data) {
 }
 
 void printTree(TreeNode *root) {
-  cout << "Tree(Inorder):" << endl;
+  cout << "Tree(pre-order):" << endl;
   printTreeHelper(root);
   cout << endl;
 }
