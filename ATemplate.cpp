@@ -2,7 +2,8 @@
  * Title :
  * Author: Dipankar Dutta
  ****************************************************/
-#include <algorithm>
+#include "tree.h"
+#include "utils.h"
 #include <iostream>
 #include <vector>
 using namespace std;
